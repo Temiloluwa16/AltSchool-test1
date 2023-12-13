@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="container">
+    <div class="container"></div>
     <div class="logo">
         <img src="assets/logo/Logo.png" alt="logo">
     </div>
@@ -21,12 +21,27 @@ For Individuals
     looking on increasing productivity, and improving organization wellness
 </p> 
 </div>
-<form action="#">
+<form class="sign-up">
  <label for="first-name">First Name</label>
  <br><br>
- <input type="text" name="" id="first-name"
+ <input type="text" name="first-name" id="first-name"
  placeholder="Tolu">
+<br><br>
+ <label for="last-name">Last Name</label>
+ <br><br>
+ <input type="text" name="last-name" id="last-name">
+<br><br>
+ <label for="gender">Gender</label>
+ <select name="gender" id="gender" placeholder="Select here" required>
+    <option value="" disabled selected>Select here</option>
+<option value="male">Male</option> 
+<option value="female">Female</option>
+<option value="other">Other</option>
+</select>
+<br><br>
 </form>
-</div>
+
+
+
 </body>
 </html>

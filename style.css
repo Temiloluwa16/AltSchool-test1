@@ -1,6 +1,6 @@
 .container {
     background: var(--cl-green, #2ec4b6);
-    /*opacity: 0.04;*/
+    opacity: 0.04;
     width: 1440px;
     height: 840px;
     position: relative;
@@ -14,6 +14,7 @@
     line-height: 50px;
     font-weight: 700;
     position: relative;
+    
 }
 .benefits {
     color: var(--cl-grey, #737373);
@@ -26,4 +27,24 @@
     
     align-items: center;
     justify-content: flex-start;
+    width: 460px;
+    height: 75px;
 }
+.first-name, .last-name, #gender {
+    color: var(--text-headings, #011c34);
+    text-align: left;
+    font-family: 'Sofia-SemiBold', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+
+}
+
+.sign-up {
+    background: #ffffff;
+    border-radius: 6px;
+    width: 500px;
+    height: 679px;
+    position: relative;
+    box-shadow: 0px 4px 50px 0px rgba(4, 8, 19, 0.10);
+}
+
