@@ -1,0 +1,7 @@
+.container {
+    background: var(--cl-green, #2ec4b6);
+    opacity: 0.03999999910593033;
+    width: 1440px;
+    height: 840px;
+    position: relative;
+}
