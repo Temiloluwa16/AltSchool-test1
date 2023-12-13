@@ -15,3 +15,15 @@
     font-weight: 700;
     position: relative;
 }
+.benefits {
+    color: var(--cl-grey, #737373);
+    text-align: left;
+    font-family: 'Brown-Regular', sans-serif;
+    font-size: 16px;
+    line-height: 25px;
+    font-weight: 400;
+    position: relative;
+    
+    align-items: center;
+    justify-content: flex-start;
+}
