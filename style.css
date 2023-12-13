@@ -1,7 +1,17 @@
 .container {
     background: var(--cl-green, #2ec4b6);
-    opacity: 0.03999999910593033;
+    /*opacity: 0.04;*/
     width: 1440px;
     height: 840px;
+    position: relative;
+    box-sizing: border-box;
+}
+.for-individuals {
+    color: var(--cl-black, #000b0a);
+    text-align: left;
+    font-family: 'Brown-Bold', sans-serif;
+    font-size: 40px;
+    line-height: 50px;
+    font-weight: 700;
     position: relative;
 }
