@@ -1,56 +1,111 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Assignment</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
     <div class="container">
-        <nav>
+      <nav>
         <a href="signup.html" target="_blank">Sign Up</a>
-         | 
+        |
         <a href="index.html">Individual</a>
-    </nav>
-    <br><br>
-    <div class="logo">
-        <img src="assets/logo/Logo.png" alt="logo">
+      </nav>
+      <br /><br />
+      <div class="section-1">
+        <div class="section-2">
+          <div class="logo">
+            <img src="assets/logo/Logo.png" alt="logo" />
+          </div>
+          <div>
+            <h1 class="for-individuals">For Individuals</h1>
+          </div>
+          <div class="benefits">
+            <p>
+              Start benefitting from wellness experience. For companies looking
+              on increasing productivity, and improving organization wellness
+            </p>
+          </div>
+        </div>
+
+        <div>
+          <form class="sign-up">
+            <label for="first-name">First Name</label>
+            <br /><br />
+            <input
+              type="text"
+              name="first-name"
+              id="first-name"
+              placeholder="Tolu"
+            />
+            <br /><br />
+            <label for="last-name">Last Name</label>
+            <br /><br />
+            <input type="text" name="last-name" id="last-name" />
+            <br /><br />
+            <label for="gender">Gender</label>
+            <select
+              name="gender"
+              id="gender"
+              placeholder="Select here"
+              required
+            >
+              <option value="" disabled selected>Select here</option>
+              <option value="male">Male</option>
+              <option value="female">Female</option>
+              <option value="other">Other</option>
+            </select>
+            <br /><br />
+            <label for="d-o-b">Date of Birth</label>
+            <br /><br />
+            <input
+              type="date"
+              name="d-o-b"
+              id="d-o-b"
+              placeholder="Select here"
+            />
+            <br /><br />
+            <label for="weight">Weight (KG)</label>
+            <br /><br />
+            <input
+              type="number"
+              name="weight"
+              id="weight"
+              placeholder="Enter Weight"
+            />
+            <br /><br />
+            <label for="height">Height (CM)</label>
+            <br /><br />
+            <input
+              type="number"
+              name="height"
+              id="height"
+              placeholder="Enter height here"
+            />
+            <br /><br />
+            <label for="activity-level">Activity Level</label>
+            <br /><br />
+            <input
+              type="text"
+              name="activity-level"
+              id="activity-level"
+              placeholder="Select here"
+            />
+            <br><br>
+            <label for="password">Password</label>
+            <br><br>
+            <input type="password" name="password" id="password">
+            <br><br>
+            <label for="register">Register</label>
+            <br><br>
+            <input type="submit" name="register" id="register">
+            <br><br>
+          </form>
+          <p>By clicking Register, you agree to our <a href="#">Terms of use </a>and our <a href="#">Privacy Policy</a></p>
+        </div>
+      </div>
     </div>
-    
-<h1 
-class="for-individuals">
-For Individuals
-</h1>
-<div class="benefits">
-    <p>
-    Start benefitting from wellness experience. For companies
-    looking on increasing productivity, and improving organization wellness
-</p> 
-</div>
-<form class="sign-up">
- <label for="first-name">First Name</label>
- <br><br>
- <input type="text" name="first-name" id="first-name"
- placeholder="Tolu">
-<br><br>
- <label for="last-name">Last Name</label>
- <br><br>
- <input type="text" name="last-name" id="last-name">
-<br><br>
- <label for="gender">Gender</label>
- <select name="gender" id="gender" placeholder="Select here" required>
-    <option value="" disabled selected>Select here</option>
-<option value="male">Male</option> 
-<option value="female">Female</option>
-<option value="other">Other</option>
-</select>
-<br><br>
-<label for="d-o-b">Date of Birth</label>
-<input type="date">
-</form>
-</div>
-
-
-</body>
+  </body>
 </html>
