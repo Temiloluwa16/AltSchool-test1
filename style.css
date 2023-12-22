@@ -87,18 +87,16 @@ input {
     flex: 1;
     box-sizing: border-box;
 }
-input, textarea {
-    /*padding: 8px;
-    box-sizing: border-box;
-    margin-bottom: 16px;*/
-
+input[type], textarea, select {
+   
   border-radius: 1px;
   
   border-style: solid;
-  width: 295px;
+  width: 50%;
   height: 48px;
   position: relative;
   border-width: 3px;
+  transition: border-color 150ms ease-in-out;
   
   
 }
@@ -114,6 +112,12 @@ input, textarea {
         bottom: 0%;
         top: 0%;
         height: 100%;*/
-#first-name {
-    border-color: var(--cl-green, #2ec4b6 );
+
+
+input[type]:hover, textarea:hover  {
+    border-color: #2ec4b6;
+}
+.submit-button {
+   width: 100%;
+    
 }
