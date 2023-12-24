@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Assignment</title>
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="media.css">
   </head>
   <body>
     <div class="container">
@@ -46,17 +47,16 @@
                 />
               </div>
 
-              <br />
               <div class="last-name">
                 <h5>Last Name</h5>
-                <input type="text" name="last-name" id="last-name" />
+                <input type="text" name="last-name" id="last-name" placeholder="Dele"/>
               </div>
             </div>
-            <br /><br />
+
             <div class="full-gender">
               <div class="gender">
                 <h5>Gender</h5>
-                <br />
+
                 <select name="gender" id="gender" required>
                   <option value="" disabled selected>Select here</option>
                   <option value="male">Male</option>
@@ -64,10 +64,10 @@
                   <option value="other">Other</option>
                 </select>
               </div>
-              <br /><br />
+
               <div class="d-o-b">
                 <h5>Date of Birth</h5>
-                <br />
+
                 <input
                   type="date"
                   name="d-o-b"
@@ -76,11 +76,11 @@
                 />
               </div>
             </div>
-            <br />
+
             <div class="full-body">
               <div class="weight">
                 <h5>Weight (KG)</h5>
-                <br />
+
                 <input
                   type="number"
                   name="weight"
@@ -90,7 +90,7 @@
               </div>
               <div class="height">
                 <h5>Height (CM)</h5>
-                <br />
+
                 <input
                   type="number"
                   name="height"
@@ -99,30 +99,34 @@
                 />
               </div>
             </div>
-            <br />
+
             <div class="activity-level">
               <h5>Activity Level</h5>
-              <br />
-              <input
-                type="text"
+
+              <select
                 name="activity-level"
                 id="activity-level"
+                required=""
                 placeholder="Select here"
-              />
+              >
+                <option value="" disabled="" selected="">Select here</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+              </select>
             </div>
-           <div class="password">
-       <br>
-            <h5>Password</h5>
-            <br>
-            <input type="password" name="password" id="password" />
+
+            <div class="password">
+              <h5>Password</h5>
+
+              <input type="password" name="password" id="password" />
             </div>
             <label for="register"></label>
-            <br /><br />
+
             <!--this is for the button area-->
-
             <button class="submit-button" type="submit">Register</button>
-
-            <br /><br />
+            <br />
+            <br />
             <footer>
               <p>
                 By clicking Register, you agree to our
